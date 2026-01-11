@@ -1,0 +1,16 @@
+# Core dependencies for FunSearch
+# No external dependencies required for basic functionality
+# The implementation uses only Python standard library
+
+# Optional: For future LLM integration
+# openai>=1.0.0
+# anthropic>=0.7.0
+
+# Optional: For enhanced visualization
+# matplotlib>=3.5.0
+# numpy>=1.21.0
+
+# Optional: For development
+# pytest>=7.0.0
+# black>=22.0.0
+# mypy>=0.990
