@@ -2,6 +2,8 @@
 
 A FunSearch implementation for discovering and evolving effective mice behaviors in a predator-prey environment using Large Language Models (LLMs).
 
+> **🚀 New to FunSearch?** Check out the [Quick Start Guide](QUICKSTART.md) to get running in 5 minutes!
+
 ## Overview
 
 This project implements the FunSearch methodology (inspired by Google DeepMind's work) to evolve algorithms using LLMs. Specifically, it focuses on discovering optimal escape strategies for mice in a predator-prey simulation.
@@ -33,8 +35,9 @@ funsearch/
 ├── environment/          # Simulation environment
 │   └── predator_prey_env.py  # Predator-prey simulation
 ├── examples/             # Example scripts
-│   ├── basic_example.py  # Basic usage example
-│   └── visualization_example.py  # Visualization demo
+│   ├── basic_example.py         # Basic usage example
+│   ├── visualization_example.py # Visualization demo
+│   └── advanced_example.py      # Advanced multi-config example
 └── utils/                # Utility functions
 ```
 
