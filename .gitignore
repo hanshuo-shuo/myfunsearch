@@ -41,6 +41,10 @@ htmlcov/
 tmp/
 *.log
 
+# Generated outputs
+best_behaviors.json
+evolved_behaviors.json
+
 # OS
 .DS_Store
 Thumbs.db
