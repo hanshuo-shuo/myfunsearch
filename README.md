@@ -57,7 +57,11 @@ e.g., Wait, Peek, Dash to obstacle, Wall-following, Go to goal.
 
 I will try to adapt the framework:
 
-Discovery: We ask the LLM to write the switching logic.
+Discovery: We ask the LLM to write the switching logic. Hard Threshold and Phase Transition.
+
+<img width="676" height="472" alt="image" src="https://github.com/user-attachments/assets/f7ae9513-d7f3-48c7-a190-3f4354dd68cd" />
+
+
 
 Goal: We want the AI to discover the symbolic If-Then rules that trigger a switch from 'Foraging' to 'Hiding' based on the predator's state.
 Evaluation: We measure how accurately the generated logic predicts the mouse's real decision-making sequence. But it is very abstract still.
