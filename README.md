@@ -34,8 +34,14 @@ def agent_step(history, params):
 Evaluator: fit the model on real data, then choose the best one
 
 
-This can give us an Interpretable and It gives us a short, readable Python function that explains how the animal thinks. 可能只是一个充分条件 但是可以更直接 They tested this on simple "Bandit Tasks" (choice A vs. choice B) across three species and found models that outperform classic theories designed by humans.
+This gives us an Interpretable Model—a short, readable Python function that explains how the animal thinks. While it might only be a sufficient condition (a plausible mechanism rather than the absolute truth), it is much more direct and transparent than a black-box Neural Network.
 
+They tested this on simple 'Bandit Tasks' (binary Choice A vs. B) across three species and found symbolic laws that outperformed classic theories designed by humans.
+
+CogFunSearch’s contribution is twofold:
+
+First, methodologically, they extended the FunSearch framework to handle realdata (by adding parameter fitting).
+Second, scientifically, they proved that this method can find interpretable biological laws for simple decision tasks.
 
 ### possible extension to our task
 
