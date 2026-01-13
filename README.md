@@ -12,3 +12,9 @@ The Creator (LLM): We give the LLM a skeleton of Python code. Its job is to writ
 The Judge (Evaluator): We take that code and actually run it to see if it works.
 If the code fails or is wrong: Trash it.
 If the code works well: Save it to a database.
+
+
+The Result: It famously discovered a mathematical construction that was better than anything human mathematicians had found in decades.
+
+### The Application to Behavior and Cognitive Science
+
