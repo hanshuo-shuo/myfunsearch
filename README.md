@@ -18,3 +18,45 @@ The Result: It famously discovered a mathematical construction that was better t
 
 ### The Application to Behavior and Cognitive Science
 
+CogFunSearch: cognitive FunSearch. CogFunSearch takes this framework, which is Funsearch and applies it to Cognitive Science. Instead of finding code that solves a math problem, we want to find code that mimics a brain. 
+
+LLM (The Architect): It writes the model logic as a Python function with some symbolic rules and unknown parameters.
+for example : 
+
+```{python}
+def agent_step(history, params):
+    # LLM writes the logic, e.g., combining reward and fatigue
+    value = params[0] * history['reward'] - params[1] * history['cost']
+    return softmax(value) # Returns action probability
+```
+
+
+Evaluator: fit the model on real data, then choose the best one
+
+
+This can give us an Interpretable and It gives us a short, readable Python function that explains how the animal thinks. 可能只是一个充分条件 但是可以更直接 They tested this on simple "Bandit Tasks" (choice A vs. choice B) across three species and found models that outperform classic theories designed by humans.
+
+
+### possible extension to our task
+
+The Limitation:
+Their paper has a clear constraint: they only tested on very simple, discrete tasks with just two choices.
+
+Our Challenge:
+Our environment is much more complex: a prey navigating a maze to a destination while avoiding a predator. This involves continuous space, multi-objective tradeoffs (fear vs. greed), and partial observability."
+
+My Proposal:
+"Since predicting exact continuous coordinates is difficult for symbolic models, I propose discretizing the behavior of Behavioral Primitives:
+e.g., Wait, Peek, Dash to obstacle, Wall-following, Go to goal.
+
+I will try to adapt the framework:
+
+Discovery: We ask the LLM to write the switching logic.
+
+Goal: We want the AI to discover the symbolic If-Then rules that trigger a switch from 'Foraging' to 'Hiding' based on the predator's state.
+Evaluation: We measure how accurately the generated logic predicts the mouse's real decision-making sequence. But it is very abstract still.
+
+Framework Extension: We are the first to scale Neuro-Symbolic Discovery from simple bandit tasks to complex spatial navigation.
+Scientific Discovery: We aim to discover the mathematical 'Law of Fear' that governs how mice trade off risk and reward."
+
+
