@@ -77,7 +77,7 @@ Some analysis on the clustered env:
 
 
 
-Framework Extension: We are the first to scale Neuro-Symbolic Discovery from simple bandit tasks to complex spatial navigation.
-Scientific Discovery: We aim to discover the mathematical 'Law of Fear' that governs how mice trade off risk and reward."
+Framework Extension: Scale Neuro-Symbolic Discovery from simple bandit tasks to complex spatial navigation.
+And hope to discover the mathematical 'Law of Fear' that governs how mice trade off risk and reward."
 
 
