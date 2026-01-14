@@ -1,4 +1,4 @@
-# myfunsearch
+<img width="261" height="108" alt="image" src="https://github.com/user-attachments/assets/67216629-4ffa-4717-b323-3da3acd19551" /># myfunsearch
 
 ## FunSearch
 
@@ -67,6 +67,18 @@ Goal: We want the AI to discover the symbolic If-Then rules that trigger a switc
 Evaluation: We measure how accurately the generated logic predicts the mouse's real decision-making sequence. But it is very abstract still.
 
 Some analysis on the clustered env:
+
+Overall, started with the most basic classification:  
+
+Run     246102
+
+Stop     88770
+
+Walk     64971
+
+Turn     32853
+
+
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/9fffd2cd-3d46-4e06-ac97-5d399862dcd8" />
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/afbcb296-923f-41aa-827e-5fc007cdbca1" />
