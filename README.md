@@ -1,5 +1,3 @@
-<img width="261" height="108" alt="image" src="https://github.com/user-attachments/assets/67216629-4ffa-4717-b323-3da3acd19551" /># myfunsearch
-
 ## FunSearch
 
 FunSearch stands for Function Search. It is an evolutionary method that uses an LLM to discover new mathematical algorithms.
