@@ -66,6 +66,17 @@ Discovery: We ask the LLM to write the switching logic. Hard Threshold and Phase
 Goal: We want the AI to discover the symbolic If-Then rules that trigger a switch from 'Foraging' to 'Hiding' based on the predator's state.
 Evaluation: We measure how accurately the generated logic predicts the mouse's real decision-making sequence. But it is very abstract still.
 
+Some analysis on the clustered env:
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/9fffd2cd-3d46-4e06-ac97-5d399862dcd8" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/afbcb296-923f-41aa-827e-5fc007cdbca1" />
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/2927f728-fd52-4dc2-be38-22f664695295" />
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/15f75216-7dfd-45a0-bf51-676c75760976" />
+
+
+
 Framework Extension: We are the first to scale Neuro-Symbolic Discovery from simple bandit tasks to complex spatial navigation.
 Scientific Discovery: We aim to discover the mathematical 'Law of Fear' that governs how mice trade off risk and reward."
 
